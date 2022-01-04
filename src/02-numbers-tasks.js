@@ -45,7 +45,7 @@ function getCircleCircumference(radius) {
  * @return {number}
  *
  * @example:
- *   5, 5  => 5
+ *   5, 5  =
  *  10, 0  => 5
  *  -3, 3  => 0
  */
