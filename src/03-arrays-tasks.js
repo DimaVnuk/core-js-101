@@ -83,7 +83,7 @@ function getArrayOfPositives(arr) {
  *    [ 'cat, 'dog', 'raccoon' ] => [ 'cat', 'dog', 'raccoon' ]
  */
 function getArrayOfStrings(arr) {
-  return arr.filter(i => typeof i === 'string');
+  return arr.filter((i) => typeof i === 'string');
 }
 
 /**
