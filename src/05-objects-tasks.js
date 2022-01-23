@@ -19,8 +19,12 @@
  *    console.log(r.height);      // => 20
  *    console.log(r.getArea());   // => 200
  */
-function Rectangle(/* width, height */) {
-  throw new Error('Not implemented');
+function Rectangle(width, height) {
+  const obj = new Object();
+  obj.width = width;
+  obj.height = height;
+  obj.area = () => width * height;
+  return obj;
 }
 
 /**
