@@ -23,7 +23,7 @@ function Rectangle(width, height) {
   const obj = new Object();
   obj.width = width;
   obj.height = height;
-  obj.area = () => width * height;
+  obj.getArea = () => width * height;
   return obj;
 }
 
@@ -37,8 +37,8 @@ function Rectangle(width, height) {
  *    [1,2,3]   =>  '[1,2,3]'
  *    { width: 10, height : 20 } => '{"height":10,"width":20}'
  */
-function getJSON(obj) {
-  return JSON.stringify(obj);
+function getJSON(/* obj */) {
+  throw new Error('Not implemented');
 }
 
 /**
